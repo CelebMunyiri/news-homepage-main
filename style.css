@@ -82,11 +82,12 @@
 }
 .part2{
     grid-area: part2;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(233, 8%, 79%) ;
+    
 }
 .part3{
     grid-area: part3;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
 }
 .part4{
     grid-area: part4;
@@ -96,9 +97,25 @@
     grid-area: box3;
     border: 1px solid blue;
 }
-.bo41{
+.box3 h1{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.box4{
     grid-area: box4;
     border: 1px solid blue;
+}
+.box4 p{
+font-size: 15px;
+}
+.box4 button{
+    width: 40%;
+    height: 15%;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    color: hsl(36, 100%, 99%);
 }
 .box5{
     grid-area: box5;
