@@ -147,17 +147,26 @@ color: hsl(236, 13%, 42%);
 .box5 ,.box6,.box7 img{
     height: 50%;
 }
-.box5 h3,p{
+.box5 p{
     color: hsl(236, 13%, 42%);
 }
-.box6 h3,p{
+.box6 p{
     color: hsl(236, 13%, 42%);
 }
-.box7 h3,p{
+.box7 p{
     color: hsl(236, 13%, 42%);
 }
 .box5 h5{
     font-weight: 600;
+}
+.box5 h3{
+    color: hsl(233, 8%, 79%);
+} 
+.box6 h3{
+    color: hsl(233, 8%, 79%);
+}
+.box7 h3{
+    color: hsl(233, 8%, 79%);
 }
 .box5,.box6,.box7 h5{
     color: hsl(240, 100%, 5%);
