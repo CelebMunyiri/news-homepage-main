@@ -1,11 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
 }
 .section{
     width: 90vw;
-    height: 90vh;
-    border: 1px solid black;
+    height: 100vh;
+    /* border: 1px solid black; */
     margin: auto;
     font-family: 'Outfit', sans-serif;
 }
@@ -21,7 +27,7 @@
     height: 100%;
 }
 .w img{
-    height: 100%;
+    height: 60%;
 }
 .navs{
     width: 50%;
@@ -41,7 +47,7 @@
 .container{
     width: 100%;
     height: 85%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3,1fr);
@@ -50,7 +56,7 @@
 }
 .box1{
     grid-area: box1;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .box1 img{
     height: 100%;
@@ -58,7 +64,7 @@
 }
 .box2{
     grid-area: box2;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(1);
     grid-template-rows: repeat(4,1fr);
@@ -67,7 +73,8 @@
 
 }
 .box2 p{
-    color: hsl(233, 8%, 79%);
+    color: hsl(236, 13%, 42%);
+    opacity: 0.7;
 }
 .box2 h4{
  color:   hsl(36, 100%, 99%);
@@ -95,37 +102,64 @@
 }
 .box3{
     grid-area: box3;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .box3 h1{
     font-weight: 800;
-    letter-spacing: 2px;
+color: hsl(240, 100%, 5%);
+
 }
 .box4{
     grid-area: box4;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .box4 p{
 font-size: 15px;
+color: hsl(236, 13%, 42%);
 }
 .box4 button{
     width: 40%;
-    height: 15%;
+    height: 20%;
     background-color: hsl(5, 85%, 63%);
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     margin: auto;
     color: hsl(36, 100%, 99%);
 }
 .box5{
     grid-area: box5;
-    border: 1px solid blue;
+     /* border: 1px solid blue;  */
+     display: flex;
+     gap: 5px;
 }
 .box6{
     grid-area: box6;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 5px;
 }
 .box7{
     grid-area: box7;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 5px;
+}
+.box5 ,.box6,.box7 img{
+    height: 50%;
+}
+.box5 h3,p{
+    color: hsl(236, 13%, 42%);
+}
+.box6 h3,p{
+    color: hsl(236, 13%, 42%);
+}
+.box7 h3,p{
+    color: hsl(236, 13%, 42%);
+}
+.box5 h5{
+    font-weight: 600;
+}
+.box5,.box6,.box7 h5{
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
 }
