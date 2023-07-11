@@ -1,9 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+    }
 body{
     height: 100vh;
     width: 100vw;
@@ -13,7 +11,8 @@ body{
     height: 100vh;
     /* border: 1px solid black; */
     margin: auto;
-    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
 .navbar{
     width: 100%;
@@ -111,6 +110,7 @@ body{
 .box3 h1{
     font-weight: 900;
 color: hsl(240, 100%, 5%);
+font-family: 'Inter', sans-serif;
 
 }
 .box4{
@@ -153,6 +153,7 @@ color: hsl(236, 13%, 42%);
 }
 .box5 p{
     color: hsl(236, 13%, 42%);
+    font-weight: 200;
 }
 .box6 p{
     color: hsl(236, 13%, 42%);
@@ -176,6 +177,10 @@ color: hsl(236, 13%, 42%);
     color: hsl(240, 100%, 5%);
     font-weight: 700;
 }
+.hamburger-menu{
+    display: hidden;
+    opacity: 0;
+}
 @media screen and (max-width:550px){
     .section{
         width: 100%;
@@ -186,15 +191,37 @@ color: hsl(236, 13%, 42%);
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8, 1fr);
-        grid-template-areas: "box1""box3""box4""box2""box2""box5""box6""box7";
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas: "box1""box3""box4""box2""box5""box6""box7";
         
     }
     .w{
         height: 40px;
+        /* border: 1px solid green; */
+        display: flex;
+        align-items: center;
+        }
+    .navs{
+        display: flex;
+        
+        /* border: 1px solid red; */
+        align-items: center;
+    }
+    .navs ul li{
+        display: hidden;
+        opacity: 0;
     }
     .container p{
-        font-weight: 10;
+        font-weight: 200;
     }
+    .hamburger-menu{
+        margin-right:100px;
+        height: 60%;
+        opacity: 1;
+}
+.box5 ,.box6,.box7 img{
+    height: 90%;
+
 }
 
+}
